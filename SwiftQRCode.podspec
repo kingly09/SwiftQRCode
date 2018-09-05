@@ -7,16 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SwiftQRCode'
-  s.version          = '0.1.1'
-  s.summary          = 'A short description of SwiftQRCode.'
-
-  s.homepage         = 'https://github.com/kingly09/SwiftQRCode'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kingly09' => 'libintm@163.com' }
-  s.source           = { :git => 'https://github.com/kingly09/SwiftQRCode.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.0'
-
+  s.name         = 'SwiftQRCode'
+  s.version      = '0.1.2'
+  s.summary      = 'this is a QR scanning and bar code recognition framework'
+  s.homepage     = 'https://github.com/kingly09/SwiftQRCode'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.authors      = {'kingly09' => 'libintm@163.com'}
+  s.platform     = :ios, '8.0'
+  s.source       = {:git => 'https://github.com/kingly09/SwiftQRCode.git', :tag => s.version}
+  s.ios.deployment_target = "8.0"
   s.source_files = 'SwiftQRCode/Classes/**/*'
-  
 end
+
